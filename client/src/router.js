@@ -30,3 +30,5 @@ const router = new Router({route: [
             component: null
         },
     ]});
+
+export default router;

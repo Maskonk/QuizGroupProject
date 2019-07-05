@@ -1,26 +1,27 @@
 <template>
   <div id="app">
-      <navbar>
+      <Navbar />
       <header title="CodeKhan"/>
-      <router-view>
+      <router-view />
   </div>
 </template>
 
 <script>
-
-import
+import Navbar from './components/Navbar'
 
 export default {
   name: "app",
 
-  }
   data(){
     return {
-      questions: {[
+      questions: [{}
 
-      ]}
+      ]
     }
   },
+    components: {
+      Navbar
+    }
 }
 </script>
 
