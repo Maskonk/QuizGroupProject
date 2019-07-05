@@ -10,11 +10,6 @@ const router = new Router({route: [
             component: null
         },
         {
-            path: '/about',
-            name: 'about',
-            component: null
-        },
-        {
             path: '/learn',
             name: 'learn',
             component: null
@@ -28,5 +23,10 @@ const router = new Router({route: [
             path: '/score',
             name: 'score',
             component: null
-        }
+        },
+        {
+            path: '/about',
+            name: 'about',
+            component: null
+        },
     ]});
