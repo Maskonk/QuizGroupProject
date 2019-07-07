@@ -1,6 +1,8 @@
 <template>
-  <h2>Cool Facts Go Below!</h2>
-  <p></p>
+  <div>
+    <h2>Cool Facts Go Below!</h2>
+    <p></p>
+  </div>
 </template>
 
 <script>
