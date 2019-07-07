@@ -1,10 +1,10 @@
 
 <template lang="html">
   <h1>Question</h1>
-  <input type="radio" id="one" value="{{this.question.questionOption[1]}}"    v-model='question-answear'>
-  <input type="radio" id="two" value="{{this.question.questionOption2]}}" v-model='question-answear'>
-  <input type="radio" id="three" value="{{this.question.questionOption[3]}}" v-model='question-answear'>
-  <input type="radio" id="four" value="{{this.question.questionOption[4]}}" v-model='question-answear'>
+  <!-- <input type="radio" id="one" value="{{this.question.questionOption[1]}}"    v-model='question-answear'> -->
+  <!-- <input type="radio" id="two" value="{{this.question.questionOption2]}}" v-model='question-answear'> -->
+  <!-- <input type="radio" id="three" value="{{this.question.questionOption[3]}}" v-model='question-answear'> -->
+  <!-- <input type="radio" id="four" value= "{{this.question.questionOption[4]}}" v-model='question-answear'> -->
 </template>
 
 
@@ -20,15 +20,15 @@ export default {
   },
   methods: {
     getQuestion() {
-      var temp = questionsToAsk.splice(0, 1)
-      return question = temp
+      if (this.questionsToAsk.length > 0)
+        var singleQuestion = this.questionsToAsk.splice(0, 1)
+        return this.question = singleQuestion
     },
     checkQuestion(){
-      if question-answear === this.question.correct_answear
+      if (question-answear === this.question.correct_answear)
       return true
       else false
-    }
-
+    },
 
   }
 }
