@@ -13,6 +13,7 @@
 <script>
 export default {
   name: 'answer',
+  props: ['question'],
   data(){
     'question-answer': null
   }
