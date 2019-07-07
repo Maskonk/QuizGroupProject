@@ -3,11 +3,13 @@
       <Navbar />
       <header title="CodeKhan"/>
       <router-view />
+      <answer />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
+import Answer from './components/Answer'
 
 export default {
   name: "app",
@@ -20,7 +22,9 @@ export default {
     }
   },
     components: {
-      Navbar
+      Navbar,
+      Answer
+
     }
 }
 </script>
