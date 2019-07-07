@@ -7,6 +7,7 @@
 import Answer from "@/components/Answer"
 
 export default {
+  name: "answer",
   props: []
 }
 </script>
