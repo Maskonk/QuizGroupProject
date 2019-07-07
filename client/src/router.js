@@ -9,7 +9,8 @@ import About from "@/views/About";
 
 Vue.use(Router);
 
-const router = new Router({route: [
+const router = new Router({
+  routes:[
         {
             path: '/',
             name: 'home',
