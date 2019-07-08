@@ -3,20 +3,27 @@
 
 <template lang="html">
 <h1>Question</h1>
-<input type="radio" id="one" value=""    v-model='question-answear'> <!-- "value" will require quiz question.vue  -->
+<!-- <input type="radio" id="one" value=""    v-model='question-answear'>
 <input type="radio" id="two" value="" v-model='question-answear'>
 <input type="radio" id="three" value="" v-model='question-answear'>
-<input type="radio" id="four" value="" v-model='question-answear'>
+<input type="radio" id="four" value="" v-model='question-answear'> -->
 </template>
 
 
 <script>
 export default {
+<<<<<<< HEAD
   name: 'answer',
   props: ['question'],
   data(){
     'question-answer': null
   }
+=======
+  // name: 'answer',
+  // data(){
+  //   'question-answer': null
+  // }
+>>>>>>> c7c37234d2a39c653ab7141a829276c53f86435f
 }
 </script>
 

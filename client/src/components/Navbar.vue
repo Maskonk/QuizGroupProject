@@ -1,15 +1,16 @@
 <template lang="html">
   <nav>
-    <router-link :to="{ name: '', params: {} }">Homepage</router-link>
-    <router-link :to="{ name: '', params: {} }">Learn</router-link>
-    <router-link :to="{ name: '', params: {} }">Quiz</router-link>
-    <router-link :to="{ name: '', params: {} }">Score</router-link>
-    <router-link :to="{ name: '', params: {} }">About</router-link>
+    <router-link :to="{ name: 'home' }">Homepage</router-link>
+<!--    <router-link :to="{ name: 'learn' }">Learn</router-link>-->
+<!--    <router-link :to="{ name: 'quiz' }">Quiz</router-link>-->
+    <router-link :to="{ name: 'score' }">Score</router-link>
+    <router-link :to="{ name: 'about' }">About</router-link>
   </nav>
 </template>
 
 <script>
 export default {
+  name: "navbar"
 }
 </script>
 
