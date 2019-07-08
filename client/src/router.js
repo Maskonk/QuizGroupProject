@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from "@/views/Home";
-// import Learn from "@/views/Learn";
-// import Quiz from "@/views/Quiz";
+import Info from "@/views/Info";
+import Quiz from "@/views/Quiz";
 import About from "@/views/About";
 import Score from "@/views/Score";
 
@@ -19,12 +19,12 @@ const router = new Router({
         {
             path: '/learn',
             name: 'learn',
-            component: null
+            component: Info
         },
         {
             path: '/quiz',
             name: 'quiz',
-            component: null
+            component: Quiz
         },
         {
             path: '/score',
