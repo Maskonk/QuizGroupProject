@@ -1,5 +1,4 @@
 <template lang="html">
-<<<<<<< HEAD
   <nav class="navbar">
     <ul>
       <li><router-link :to="{ name: 'home', params: {} }">HOME</router-link></li>
@@ -8,14 +7,6 @@
       <li><router-link :to="{ name: '', params: {} }">SCORE</router-link></li>
       <li class="about"><router-link :to="{ name: 'about', params: {} }">ABOUT</router-link></li>
     </ul>
-=======
-  <nav>
-    <router-link :to="{ name: 'home' }">Homepage</router-link>
-<!--    <router-link :to="{ name: 'learn' }">Learn</router-link>-->
-<!--    <router-link :to="{ name: 'quiz' }">Quiz</router-link>-->
-    <router-link :to="{ name: 'score' }">Score</router-link>
-    <router-link :to="{ name: 'about' }">About</router-link>
->>>>>>> da33029df77204c43132b5f7b574cd6309b12b6d
   </nav>
 </template>
 
