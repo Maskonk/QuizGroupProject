@@ -1,11 +1,11 @@
 <template lang="html">
   <nav class="navbar">
     <ul>
-      <li><router-link :to="{ name: 'home', params: {} }">HOME</router-link></li>
-      <li><router-link :to="{ name: 'learn', params: {} }">LEARN</router-link></li>
-      <li><router-link :to="{ name: 'quiz', params: {} }">QUIZ</router-link></li>
-      <li><router-link :to="{ name: 'score', params: {} }">SCORE</router-link></li>
-      <li class="about"><router-link :to="{ name: 'about', params: {} }">ABOUT</router-link></li>
+      <li><router-link :to="{ name: 'home' }">HOME</router-link></li>
+      <li><router-link :to="{ name: 'learn' }">LEARN</router-link></li>
+      <li><router-link :to="{ name: 'quiz' }">QUIZ</router-link></li>
+      <li><router-link :to="{ name: 'score' }">SCORE</router-link></li>
+      <li><router-link :to="{ name: 'about' }">ABOUT</router-link></li>
     </ul>
   </nav>
 </template>
