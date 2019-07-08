@@ -2,22 +2,25 @@
 
 
 <template lang="html">
-<h1>Question</h1>
-<!-- <input type="radio" id="one" value=""    v-model='question-answear'>
-<input type="radio" id="two" value="" v-model='question-answear'>
-<input type="radio" id="three" value="" v-model='question-answear'>
-<input type="radio" id="four" value="" v-model='question-answear'> -->
+    <div>
+        <div v-for="answer in answers">
+<!--            <p>{{answer}}</p>-->
+            <input type="radio" :name="question" :id="answer" value="apples"> &nbsp;
+            <label :for="answer">{{answer}}</label>
+        </div>
+    </div>
 </template>
 
 
 <script>
 export default {
-<<<<<<< HEAD
-  name: 'answer',
-  props: ['question'],
-  data(){
-    'question-answer': null
-  }
+    name: 'answer',
+    props: ['question', 'answers'],
+    data() {
+        return {
+            'question-answer': null
+        }
+    }
 }
 </script>
 
