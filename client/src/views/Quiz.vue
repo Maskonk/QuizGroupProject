@@ -1,5 +1,5 @@
 <template>
-  <div id="main">
+  <div class="container" id="main">
     <h2>QUIZ TITLE</h2>
     <question v-for="question in questions" :question="question"></question>
     <button><router-link :to="{ name: 'score' }">Submit answer</router-link></button>
