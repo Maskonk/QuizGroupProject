@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import Questions from './components/Questions'
 import {questions} from "./questions";
 
+
 export default {
   name: "app",
 

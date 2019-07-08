@@ -16,14 +16,11 @@ export default {
     return {
       apples: []
     };
-  },
-  mounted(){
-    this.getQuestions();
   }
 }
 
 
-  </script>
+</script>
 
-  <style lang="css" scoped>
-  </style>
+<style lang="css" scoped>
+</style>

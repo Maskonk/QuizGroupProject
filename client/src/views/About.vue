@@ -2,13 +2,13 @@
 <div class="">
   <h1>The Team</h1>
   <h3>John</h3>
-  <img src="/client/public/john.png" alt="John">
+  <img src="../../public/john.png" alt="John">
   <h3>Kyle</h3>
-  <img src="/client/public/kyle.png" alt="Kyle">
+  <img src="../../public/kyle.png" alt="Kyle">
   <h3>Michal</h3>
-  <img src="/client/public/michal.png" alt="Michal">
+  <img src="../../public/michal.png" alt="Michal">
   <h3>Rory</h3>
-  <img src="/client/public/rory.png" alt="Rory">
+  <img src="../../public/rory.png" alt="Rory">
 </div>
 </template>
 
