@@ -3,9 +3,8 @@
 
 <template lang="html">
     <div>
-        <div v-for="answer in answers">
-<!--            <p>{{answer}}</p>-->
-            <input type="radio" :name="question" :id="answer" value="apples"> &nbsp;
+        <div v-for="answer in answers" v-on:change="select">
+            <input type="radio" :name="question" :id="answer"> &nbsp;
             <label :for="answer">{{answer}}</label>
         </div>
     </div>
@@ -18,7 +17,12 @@ export default {
     props: ['question', 'answers'],
     data() {
         return {
-            'question-answer': null
+            selected: null
+        }
+    },
+    methods: {
+        select(a){
+            console.log(a)
         }
     }
 }
