@@ -1,7 +1,6 @@
 <template>
   <div id="app">
       <Navbar />
-      <header title="CodeKhan"/>
       <router-view :questions="questions" />
   </div>
 </template>
