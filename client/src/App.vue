@@ -3,13 +3,21 @@
       <Navbar />
       <header title="CodeKhan"/>
       <router-view />
+<<<<<<< HEAD
       <answer />
+=======
+      <questions /> 
+>>>>>>> development
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
+<<<<<<< HEAD
 import Answer from './components/Answer'
+=======
+import Questions from './components/Questions'
+>>>>>>> development
 
 export default {
   name: "app",
@@ -23,8 +31,12 @@ export default {
   },
     components: {
       Navbar,
+<<<<<<< HEAD
       Answer
 
+=======
+      'questions':Questions
+>>>>>>> development
     }
 }
 </script>

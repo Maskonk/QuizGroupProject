@@ -37,7 +37,11 @@ export default {
         array[index] = temp;
       }
       return array;
+<<<<<<< HEAD
     } 
+=======
+    }
+>>>>>>> development
   },
   mounted(){
     this.getQuestions();

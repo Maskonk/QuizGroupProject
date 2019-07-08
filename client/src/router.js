@@ -3,8 +3,8 @@ import Router from 'vue-router';
 import Home from "@/views/Home";
 // import Learn from "@/views/Learn";
 // import Quiz from "@/views/Quiz";
-// import Score from "@/views/Score";
 import About from "@/views/About";
+import Score from "@/views/Score";
 
 
 Vue.use(Router);
@@ -29,7 +29,7 @@ const router = new Router({
         {
             path: '/score',
             name: 'score',
-            component: null
+            component: Score
         },
         {
             path: '/about',
