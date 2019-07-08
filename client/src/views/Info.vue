@@ -29,12 +29,10 @@
       <br>
       However, the brutality of Genghis Khan cannot be overstated. The Mongol army regularly slaughtered entire villages. It’s believed that the fighting that Genghis started killed up to 40 million people; almost 10% of the population of the world at the time. In the Iranian plateau, up to three quarters of all the people who lived there were killed, and it’s taken until the 20th century for the population to recover. All this killing was done simply to expand the Mongolian empire.</p>
       <br>
+      <p> You can see how the open planes lead to horseback riding being an integral part of mongolian society along with their nomadic style of life.</p>
+      <img alt="I lovely picture of the mongolian open planes with some cows and goats in the background" src="../../public/mongolia.jpg">
       <br>
-      <p> You can see how the open planes lead to horseback riding being an integral part of mongolian society</p>
 
-      <div class="bottom">
-        <img src="../../public/mongolia.jpg">
-      </div>
     </div>
   </template>
 
@@ -46,21 +44,22 @@
 
   <style lang="css">
 
-  h3 {
-    text-align: center;
-  }
+    h3 {
+      text-align: center;
+    }
 
-  .bottom {
-    
 
-  }
+    img{
+      max-width:1295px;
+      max-height:1000px;
+    }
 
-  #main {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    text-align: justify;
-    margin-top: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-    font-size: 25px;
-  }
+    #main {
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      text-align: justify;
+      margin-top: 20px;
+      margin-left: 60px;
+      margin-right: 60px;
+      font-size: 25px;
+    }
   </style>
