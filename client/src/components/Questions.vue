@@ -1,12 +1,14 @@
 <template lang="html">
-
+  <div>
+    <p>{{question}}</p>
+  </div>
 
 </template>
 
 <script>
 export default {
   name: 'questions',
-  // props: ['questions']
+  props: ['question'],
   data(){
     return {
       questionsToAsk:[],
