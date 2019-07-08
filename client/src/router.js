@@ -1,13 +1,20 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Home from "@/views/Home";
+// import Learn from "@/views/Learn";
+// import Quiz from "@/views/Quiz";
+// import Score from "@/views/Score";
+import About from "@/views/About";
+
 
 Vue.use(Router);
 
-const router = new Router({route: [
+const router = new Router({
+  routes:[
         {
             path: '/',
             name: 'home',
-            component: null
+            component: Home
         },
         {
             path: '/learn',
@@ -27,7 +34,7 @@ const router = new Router({route: [
         {
             path: '/about',
             name: 'about',
-            component: null
+            component: About
         },
     ]});
 
