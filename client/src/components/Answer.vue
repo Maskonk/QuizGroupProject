@@ -1,11 +1,7 @@
-<!-- this is all i can do untill questions prop is created  -->
-
-
 <template lang="html">
     <div>
-        <div v-for="answer in answers">
-<!--            <p>{{answer}}</p>-->
-            <input type="radio" :name="question" :id="answer" value="apples"> &nbsp;
+        <div v-for="answer in answers" v-on:change="select">
+            <input type="radio" :name="question" :id="answer" :value="answer"> &nbsp;
             <label :for="answer">{{answer}}</label>
         </div>
     </div>
@@ -13,12 +9,18 @@
 
 
 <script>
-export default {
+    import {eventBus} from "@/main";
+    export default {
     name: 'answer',
-    props: ['question', 'answers'],
+    props: ['question', 'answers', 'correct'],
     data() {
         return {
-            'question-answer': null
+            selected: null
+        }
+    },
+    methods: {
+        select(a){
+            eventBus.$emit('', {question: this.question, selected: a.target.value, correct: this.correct})
         }
     }
 }
