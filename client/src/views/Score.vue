@@ -17,5 +17,8 @@
     }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+#main {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
 </style>

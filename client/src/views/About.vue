@@ -1,5 +1,5 @@
 <template lang="html">
-<div>
+<div id="main">
   <h1>The Team</h1>
     <div class="grid">
       <img src="../../public/john.png" alt="John">
@@ -21,7 +21,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
-
+#main {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <h2>QUIZ TITLE</h2>
     <question v-for="question in questions" :question="question"></question>
     <button><router-link :to="{ name: 'score' }">Submit answer</router-link></button>
@@ -23,5 +23,8 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+#main {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
 </style>
