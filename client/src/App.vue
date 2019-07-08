@@ -1,11 +1,12 @@
 <template>
   <div id="app">
       <Navbar />
-      <router-view :questions="getQuestions" />
+      <router-view :questions="getQuestions" :answers="answers"/>
   </div>
 </template>
 
 <script>
+import {eventBus} from "./main";
 import Navbar from './components/Navbar'
 import Questions from './components/Questions'
 import {questions} from "./questions";
@@ -16,7 +17,8 @@ export default {
 
   data(){
     return {
-        questions: questions
+        questions: questions,
+        answers: {}
     }
   },
     components: {
@@ -42,6 +44,12 @@ export default {
             let shuffledQuestions = this.shuffleArray(this.questions);
             return shuffledQuestions.slice(0, numberOfQuestionsSelected);
         }
+    },
+    mounted() {
+        eventBus.$on('answer-selected', (data) =>
+        {this.answers[data.question] = {userAnswer: data.selected, correctAnswer: data.correct};
+            console.log('in the method', this.answers)});
+        console.log('second', this.answers)
     }
 }
 </script>

@@ -1,22 +1,18 @@
 <template>
     <div>
-        <h2> You scored {{score}} out of questions.length</h2>
+        <h2> You scored {{score}} correct out of {{Object.keys(answers).length}} questions answered</h2>
+        <p> {{}} </p>
     </div>
 </template>
 
 <script>
-    import {eventBus} from "../main";
-
     export default {
         name: "result",
-        props: ['questions'],
+        props: ['answers'],
         data() {
           return {
-              score: null
+              score: 0,
           }
-        },
-        mounted() {
-          eventBus.$on('question-answered', () => {this.score += 1})
         }
     }
 </script>

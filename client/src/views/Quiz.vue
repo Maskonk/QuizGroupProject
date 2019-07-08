@@ -1,10 +1,8 @@
 <template>
   <div>
     <h2>QUIZ TITLE</h2>
-    <form method="POST" action="Score.vue" v-on:submit="apples">
     <question v-for="question in questions" :question="question"></question>
-    <input type="submit" value="Submit answers">
-    </form>
+    <button><router-link :to="{ name: 'score' }">Submit answer</router-link></button>
   </div>
 </template>
 
@@ -18,7 +16,7 @@ export default {
   },
   methods: {
     apples(event) {
-      event.preventDefault();
+      // event.preventDefault();
       console.log(event)
     }
   }
