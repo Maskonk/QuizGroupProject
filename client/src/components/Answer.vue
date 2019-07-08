@@ -12,10 +12,12 @@
 
 <script>
 export default {
-  // name: 'answer',
-  // data(){
-  //   'question-answer': null
-  // }
+<<<<<<< HEAD
+  name: 'answer',
+  props: ['question'],
+  data(){
+    'question-answer': null
+  }
 }
 </script>
 
