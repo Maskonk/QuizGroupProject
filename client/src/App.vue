@@ -6,7 +6,7 @@
 <<<<<<< HEAD
       <answer />
 =======
-      <questions /> 
+      <questions />
 >>>>>>> development
   </div>
 </template>
