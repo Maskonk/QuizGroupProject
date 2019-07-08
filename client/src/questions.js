@@ -1,11 +1,11 @@
 export const questions = [{
-    "question": "Ghengis khan orginal name was...",
+    "question": "Genghis khan orginal name was...",
     "correct_answer": "Temujin",
     "questionOption":
         [
             "Ginesh",
             "Carl Drogo",
-            "Ghengis",
+            "Genghis",
             "Temujin"
         ]},
     {
@@ -19,17 +19,17 @@ export const questions = [{
                 "1162"
             ]},
 
-    {"question": "You could describe Genghis's Khans military tactics as ...?",
+    {"question": "You could describe Genghis Khan's military tactics as ...?",
         "correct_answer": "Aggressive",
         "questionOption":
             [
                 "Relaxed",
                 "Passive",
                 "Aggressive",
-                "He didnt fight ever!"
+                "He didn't fight ever!"
             ]},
 
-    {"question": "When did Ghengis Khan normally do to villages he came across?",
+    {"question": "When did Genghis Khan normally do to villages he came across?",
         "correct_answer": "Murder them",
         "questionOption":
             [
@@ -38,16 +38,16 @@ export const questions = [{
                 "Introduce them to fine art and love",
                 "Just ignore them"
             ]},
-    {"question": "How many people is it believed Ghengis Khan help murder?",
+    {"question": "How many people is it believed Genghis Khan help to murder?",
         "correct_answer": "40 million",
         "questionOption":
             [
-                "None!, he was a good boy",
+                "None! He was a good boy",
                 "5 thousand",
                 "30 million",
                 "40 million"
             ]},
-    {"question": "What percentage of the world's population do we think Ghengis's leadership has killed?",
+    {"question": "What percentage of the world's population do we think Genghis' leadership has killed?",
         "correct_answer": "10%",
         "questionOption":
             [
@@ -56,7 +56,7 @@ export const questions = [{
                 "0.2%",
                 "10%"
             ]},
-    {"question": "Where in the modern world was Ghengis Khan born?",
+    {"question": "Where in the modern world was Genghis Khan born?",
         "correct_answer": "Mongolia",
         "questionOption":
             [
@@ -65,7 +65,7 @@ export const questions = [{
                 "Finland",
                 "China"
             ]},
-    {"question": "What was Ghengis Khan said to holding in his hand when born?",
+    {"question": "What was Genghis Khan said to holding in his hand when born?",
         "correct_answer": "Blood clot",
         "questionOption":
             [
@@ -83,7 +83,7 @@ export const questions = [{
                 "Mad charges",
                 "Semi-automatic weapons"
             ]},
-    {"question": "How much land did Ghengis Khan when he became the head of the faimily",
+    {"question": "How much land did Genghis Khan inherited when he became the head of the family",
         "correct_answer": "Nothing",
         "questionOption":
             [
@@ -92,7 +92,7 @@ export const questions = [{
                 "Nothing",
                 "5000 square miles"
             ]},
-    {"question": "What does Ghengis Khan's original name translate to",
+    {"question": "What does Genghis Khan's original name translate to",
         "correct_answer": "Iron worker",
         "questionOption":
             [
@@ -101,7 +101,7 @@ export const questions = [{
                 "Iron worker",
                 "Flame worker"
             ]},
-    {"question": "What was the prophesied upon Genghis's birth?",
+    {"question": "What was prophesied upon Genghis's birth?",
         "correct_answer": "That he would be a great leader",
         "questionOption":
             [
@@ -110,7 +110,7 @@ export const questions = [{
                 "That he would turn out to be a fool",
                 "That he would never be able to ride"
             ]},
-    {"question": "What modern day city was Ghengis born closest to?",
+    {"question": "What modern day city was Genghis born closest to?",
         "correct_answer": "Ulaanbaatar",
         "questionOption":
             [
@@ -119,7 +119,7 @@ export const questions = [{
                 "New York",
                 "Paris"
             ]},
-    {"question": "How many official wives did Ghengis Khan have?",
+    {"question": "How many official wives did Genghis Khan have?",
         "correct_answer": "4",
         "questionOption":
             [
@@ -128,7 +128,7 @@ export const questions = [{
                 "2",
                 "4"
             ]},
-    {"question": "At its peak, how much land had Ghengis conquer?",
+    {"question": "At its peak, how much land had Genghis conquer?",
         "correct_answer": "Over ten million square miles",
         "questionOption":
             [
@@ -137,7 +137,7 @@ export const questions = [{
                 "From shore to shore",
                 "300 miles, and 300 more"
             ]},
-    {"question": "How long did Ghengis Khan's empire last after his death?",
+    {"question": "How long did Genghis Khan's empire last after his death?",
         "correct_answer": "It fell quickly",
         "questionOption":
             [
@@ -146,7 +146,7 @@ export const questions = [{
                 "It fell quickly",
                 "He is still alive!"
             ]},
-    {"question": "In the Iranian plateau, how many people died due to Ghengis Khan's influence?",
+    {"question": "In the Iranian plateau, how many people died due to Genghis Khan's influence?",
         "correct_answer": "Up to three quarters",
         "questionOption":
             [
@@ -155,7 +155,7 @@ export const questions = [{
                 "None",
                 "All of them"
             ]},
-    {"question": "What do people foolishly commend Ghengis Khan for?",
+    {"question": "What do people foolishly commend Genghis Khan for?",
         "correct_answer": "His religious tolerance",
         "questionOption":
             [
@@ -173,25 +173,25 @@ export const questions = [{
                 "until the 20th century",
                 "until the 21th century"
             ]},
-    {"question": "What was the main reason for all the murdering Ghengis Khan facilitated?",
+    {"question": "What was the main reason for all the murdering Genghis Khan facilitated?",
         "correct_answer": "Expanding his empire!",
         "questionOption":
             [
                 "For fun, he just loves killing!",
                 "Expanding his empire!",
                 "For cardiovascular exercise",
-                "Because he has a banging hangover."
+                "Because he had a banging hangover."
             ]},
-    {"question": "Who split up Ghengis Khan's empire after his death?",
+    {"question": "Who split up Genghis Khan's empire after his death?",
         "correct_answer": "His grandchildren",
         "questionOption":
             [
                 "His grandchildren",
                 "His wife",
                 "His mother",
-                "His best friend bob"
+                "His best friend Bob"
             ]},
-    {"question": "What is did Ghengis Khan do to the nomadic tribes of Mongolia?",
+    {"question": "What is did Genghis Khan do to the nomadic tribes of Mongolia?",
         "correct_answer": "Unite them",
         "questionOption":
             [
