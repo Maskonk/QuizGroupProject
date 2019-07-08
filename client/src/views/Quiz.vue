@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <h2>QUIZ TITLE</h2>
     <form method="POST" action="Score.vue" v-on:submit="apples">
     <question v-for="question in questions" :question="question"></question>
@@ -25,5 +25,8 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+#main {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
 </style>

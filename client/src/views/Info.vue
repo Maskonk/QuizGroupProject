@@ -42,7 +42,7 @@
   }
   </script>
 
-  <style lang="css">
+  <style lang="css" scoped>
 
     h3 {
       text-align: center;

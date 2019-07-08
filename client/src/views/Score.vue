@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="main">
         <h2> You scored {{score}} out of questions.length</h2>
     </div>
 </template>
@@ -21,5 +21,8 @@
     }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+#main {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
 </style>
