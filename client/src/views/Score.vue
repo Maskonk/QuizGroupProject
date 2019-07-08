@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h2> You scored {{score}} correct out of {{Object.keys(answers).length}} questions answered</h2>
-        <p> {{totalScore(this.answers)}} </p>
+        <h2> You scored {{totalScore(this.answers)}} correct out of {{Object.keys(answers).length}} questions answered</h2>
     </div>
 </template>
 
