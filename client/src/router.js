@@ -1,10 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from "@/views/Home";
-import Info from "@/views/Info";
+import Learn from "@/views/Learn";
 import Map from "@/views/Map";
 import Quiz from "@/views/Quiz";
 import About from "@/views/About";
+import Info from "@/views/Info"
 import Score from "@/views/Score";
 
 
@@ -20,7 +21,7 @@ const router = new Router({
         {
             path: '/learn',
             name: 'learn',
-            component: Info
+            component: Learn
         },
         {
             path: '/map',
@@ -36,6 +37,11 @@ const router = new Router({
             path: '/score',
             name: 'score',
             component: Score
+        },
+        {
+          path: '/info',
+          name: 'info',
+          component: Info
         },
         {
             path: '/about',
