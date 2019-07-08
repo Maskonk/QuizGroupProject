@@ -1,7 +1,7 @@
 <template>
   <div id="main">
 
-    <h3>A breif introduction to the life of Ghenis Khan </h3>
+    <h3>A brief introduction to the life of Ghenis Khan </h3>
     <p>Genghis Khan is a famous Mongol leader and warrior, who lived in the 12th and 13th centuries. He is most well-known for uniting the nomadic tribes of Mongolia and then leading those tribes into many battles; eventually conquering a large part of Asia and Europe.
       <br>
       <br>
