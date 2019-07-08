@@ -37,7 +37,7 @@ export default {
         array[index] = temp;
       }
       return array;
-    }
+    } 
   },
   mounted(){
     this.getQuestions();
