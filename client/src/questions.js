@@ -19,13 +19,13 @@ export const questions = [{
                 "1162"
             ]},
 
-    {"question": "You could describe Genghis's Khans military tatics as ...?",
-        "correct_answer": "Agressive",
+    {"question": "You could describe Genghis's Khans military tactics as ...?",
+        "correct_answer": "Aggressive",
         "questionOption":
             [
                 "Relaxed",
                 "Passive",
-                "Agressive",
+                "Aggressive",
                 "He didnt fight ever!"
             ]},
 
@@ -38,7 +38,7 @@ export const questions = [{
                 "Introduce them to fine art and love",
                 "Just ignore them"
             ]},
-    {"question": "How many people is it belived Ghengis Khan help murder?",
+    {"question": "How many people is it believed Ghengis Khan help murder?",
         "correct_answer": "40 million",
         "questionOption":
             [
@@ -79,11 +79,11 @@ export const questions = [{
         "questionOption":
             [
                 "Horsemanship and archery",
-                "Overwhemling numbers",
+                "Overwhelming numbers",
                 "Mad charges",
                 "Semi-automatic weapons"
             ]},
-    {"question": "How much land did ghengis Khan when he became the head of the faimily",
+    {"question": "How much land did Ghengis Khan when he became the head of the faimily",
         "correct_answer": "Nothing",
         "questionOption":
             [
@@ -92,7 +92,7 @@ export const questions = [{
                 "Nothing",
                 "5000 square miles"
             ]},
-    {"question": "What does Ghengis Khan's orginal name translate to",
+    {"question": "What does Ghengis Khan's original name translate to",
         "correct_answer": "Iron worker",
         "questionOption":
             [
@@ -101,7 +101,7 @@ export const questions = [{
                 "Iron worker",
                 "Flame worker"
             ]},
-    {"question": "What was the prophesied apon Genghis's brith?",
+    {"question": "What was the prophesied upon Genghis's birth?",
         "correct_answer": "That he would be a great leader",
         "questionOption":
             [
@@ -119,7 +119,7 @@ export const questions = [{
                 "New York",
                 "Paris"
             ]},
-    {"question": "How many offical wives did Ghengis Khan have?",
+    {"question": "How many official wives did Ghengis Khan have?",
         "correct_answer": "4",
         "questionOption":
             [
@@ -156,19 +156,19 @@ export const questions = [{
                 "All of them"
             ]},
     {"question": "What do people foolishly commend Ghengis Khan for?",
-        "correct_answer": "His religious tollerance",
+        "correct_answer": "His religious tolerance",
         "questionOption":
             [
-                "His religious tollerance",
-                "His singing abbility",
-                "His strong and stable policys in regards to brexit",
-                "His attuide towards slavery"
+                "His religious tolerance",
+                "His singing ability",
+                "His strong and stable polices in regards to brexit",
+                "His altitude towards slavery"
             ]},
     {"question": "How long has it taken for the massacre of the people of the Iranian plateau to recover?",
         "correct_answer": "until the 20th century",
         "questionOption":
             [
-                "untill the 18th century",
+                "until the 18th century",
                 "until the 19th century",
                 "until the 20th century",
                 "until the 21th century"
@@ -177,7 +177,7 @@ export const questions = [{
         "correct_answer": "Expanding his empire!",
         "questionOption":
             [
-                "For fun, he just loves killin!",
+                "For fun, he just loves killing!",
                 "Expanding his empire!",
                 "For cardiovascular exercise",
                 "Because he has a banging hangover."
