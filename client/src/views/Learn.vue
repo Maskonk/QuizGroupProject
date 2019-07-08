@@ -50,8 +50,8 @@
 
 
     img{
-      max-width:1295px;
-      max-height:1000px;
+      max-width:100%;
+      /*max-height:1000px;*/
     }
 
     #main {
