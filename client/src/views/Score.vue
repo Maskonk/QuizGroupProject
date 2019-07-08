@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1> You scored {{score}} out of questions.length</h1>
+        <h2> You scored {{score}} out of questions.length</h2>
     </div>
 </template>
 
@@ -21,6 +21,6 @@
     }
 </script>
 
-<style scoped>
+<style>
 
 </style>

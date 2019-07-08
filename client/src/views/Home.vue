@@ -11,5 +11,8 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
+h1, h2, h3, h4 {
+  margin: 80px;
+}
 </style>

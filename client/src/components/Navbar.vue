@@ -29,6 +29,10 @@ ul {
 .navbar {
   background-color: black;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -52,5 +56,6 @@ ul {
   background-color: white;
   color: black;
 }
+
 
 </style>
