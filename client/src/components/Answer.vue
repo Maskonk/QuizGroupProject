@@ -20,7 +20,7 @@
     },
     methods: {
         select(a){
-            eventBus.$emit('', {question: this.question, selected: a.target.value, correct: this.correct})
+            eventBus.$emit('answer-selected', {question: this.question, selected: a.target.value, correct: this.correct})
         }
     }
 }
