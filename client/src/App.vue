@@ -2,41 +2,36 @@
   <div id="app">
       <Navbar />
       <header title="CodeKhan"/>
-      <router-view />
-<<<<<<< HEAD
-      <answer />
-=======
       <questions />
->>>>>>> development
+=======
+      <router-view :questions="questions" />
+      <Questions />
+>>>>>>> 5fa406504665fe6b5c9e13016d59b51a14e168ae
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
-<<<<<<< HEAD
-import Answer from './components/Answer'
-=======
 import Questions from './components/Questions'
->>>>>>> development
+<<<<<<< HEAD
+=======
+import {questions} from "./questions";
+>>>>>>> 5fa406504665fe6b5c9e13016d59b51a14e168ae
 
 export default {
   name: "app",
 
   data(){
     return {
-      questions: [{}
-
-      ]
+        questions: questions
     }
   },
     components: {
       Navbar,
-<<<<<<< HEAD
-      Answer
-
-=======
       'questions':Questions
->>>>>>> development
+=======
+      Questions
+>>>>>>> 5fa406504665fe6b5c9e13016d59b51a14e168ae
     }
 }
 </script>
