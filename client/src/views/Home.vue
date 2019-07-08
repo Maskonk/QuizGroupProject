@@ -1,7 +1,8 @@
 <template lang="html">
 <div class="">
   <h1>CodeKhan</h1>
-  <h4>An interactive platform to learn and test your knowledge about Genghis Khan</h4>
+  <h2>An interactive platform to learn and test</h2>
+  <h2>your knowledge about Genghis Khan</h2>
 </div>
 </template>
 
@@ -12,7 +13,4 @@ export default {
 </script>
 
 <style lang="css">
-h1, h2, h3, h4 {
-  margin: 80px;
-}
 </style>

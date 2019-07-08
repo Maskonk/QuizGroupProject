@@ -2,9 +2,13 @@
 <div class="">
   <h1>The Team</h1>
   <h3>John</h3>
+  <img src="/client/public/john.png" alt="John">
   <h3>Kyle</h3>
+  <img src="/client/public/kyle.png" alt="Kyle">
   <h3>Michal</h3>
+  <img src="/client/public/michal.png" alt="Michal">
   <h3>Rory</h3>
+  <img src="/client/public/rory.png" alt="Rory">
 </div>
 </template>
 
@@ -14,5 +18,5 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
 </style>
