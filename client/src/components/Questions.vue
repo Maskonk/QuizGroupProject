@@ -1,13 +1,16 @@
 <template lang="html">
   <div>
-    <p>{{question}}</p>
+    <h4>{{question.question}}</h4>
+    <answer :question="question.question" :answers="question.questionOption"></answer>
   </div>
 
 </template>
 
 <script>
+import Answer from "./Answer";
 export default {
   name: 'questions',
+  components: {Answer},
   props: ['question'],
   data(){
     return {
@@ -24,7 +27,7 @@ export default {
   },
   methods: {
     getQuestions(){
-      const numberOfQuestionsSelected = 2 //this will be a v-bound property that the user inputs at on point
+      const numberOfQuestionsSelected = 2; //this will be a v-bound property that the user inputs at on point
       var shuffledQuestions = this.shuffleArray(this.questions_test);
       var randomQuestions = shuffledQuestions.slice(0, numberOfQuestionsSelected);
       return this.questionsToAsk = randomQuestions;
