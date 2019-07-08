@@ -42,19 +42,15 @@ export default {
         array[index] = temp;
       }
       return array;
-<<<<<<< HEAD
-    } 
-=======
     }
->>>>>>> development
   },
-  mounted(){
-    this.getQuestions();
-  }
+mounted(){
+  this.getQuestions();
+}
 }
 
 
-  </script>
+</script>
 
-  <style lang="css" scoped>
-  </style>
+<style lang="css" scoped>
+</style>

@@ -14,13 +14,6 @@
 
 <script>
 export default {
-<<<<<<< HEAD
-  name: 'answer',
-  props: ['question'],
-  data(){
-    'question-answer': null
-  }
-=======
     name: 'answer',
     props: ['question', 'answers'],
     data() {
@@ -28,7 +21,6 @@ export default {
             'question-answer': null
         }
     }
->>>>>>> 3481547cc66c0d0ed17f6daf508ad96d3ebc25b1
 }
 </script>
 
