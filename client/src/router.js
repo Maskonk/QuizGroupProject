@@ -4,6 +4,7 @@ import Home from "@/views/Home";
 import Learn from "@/views/Learn";
 import Map from "@/views/Map";
 import Quiz from "@/views/Quiz";
+import Board from "@/views/Board";
 import About from "@/views/About";
 import Info from "@/views/Info"
 import Score from "@/views/Score";
@@ -37,6 +38,11 @@ const router = new Router({
             path: '/score',
             name: 'score',
             component: Score
+        },
+        {
+            path: '/board',
+            name: 'board',
+            component: Board
         },
         {
           path: '/info',
