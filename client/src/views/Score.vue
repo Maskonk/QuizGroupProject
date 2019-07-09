@@ -5,7 +5,7 @@
         <h3>Correct Answers:</h3>
         <ol>
             <div v-for="(question, index) in answers" :question="question" :key="index">
-          <li v-if="question.userAnswer === question.correctAnswer">{{index}}<br>Correct Answer: {{question.correctAnswer}}<br><br></li>
+          <li v-if="question.userAnswer >= question.correctAnswer">{{index}}<br>Correct Answer: {{question.correctAnswer}}<br><br></li>
           <li v-else>{{index}}<br>Your answer: {{question.userAnswer}}<br>Correct Answer: {{question.correctAnswer}}<br><br></li>
             </div>
         </ol>
