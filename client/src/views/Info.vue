@@ -2,12 +2,12 @@
     <div id="main">
         <h2 class="header"> Further Information: </h2>
         <div class="grid">
-          <b><img src="../../public/wiki_logo.png" alt="wikipedia logo"></b>
-          <b><img src="../../public/history_icon.png" alt="history website icon"></b>
-          <b><img src="../../public/flipboard.jpg" alt="biography website icon"></b>
-          <b><a href="https://en.wikipedia.org/wiki/Genghis_Khan"> Genghis Khan's Wikipedia page</a></b>
-          <b><a href="https://www.history.com/topics/china/genghis-khan"> History page for Genghis Khan</a></b>
-          <b><a href="https://www.biography.com/dictator/genghis-khan"> Genghis Khan biography</a></b>
+          <b><a href="https://en.wikipedia.org/wiki/Genghis_Khan"><img src="../../public/wiki_logo.png" alt="wikipedia logo"></a></b>
+          <b><a href="https://www.history.com/topics/china/genghis-khan"><img src="../../public/history_icon.png" alt="history website icon"></a></b>
+          <b><a href="https://www.biography.com/dictator/genghis-khan"><img src="../../public/flipboard.jpg" alt="biography website icon"></a></b>
+          <b><a href="https://en.wikipedia.org/wiki/Genghis_Khan">Genghis Khan's Wikipedia page</a></b>
+          <b><a href="https://www.history.com/topics/china/genghis-khan">History page for Genghis Khan</a></b>
+          <b><a href="https://www.biography.com/dictator/genghis-khan">Genghis Khan biography</a></b>
         </div>
     </div>
 </template>
@@ -44,7 +44,8 @@ a {
 
 h2 {
   text-align: center;
-  margin-bottom: 0px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .header {
