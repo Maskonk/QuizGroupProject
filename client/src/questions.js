@@ -69,7 +69,7 @@ export const questions = [{
         "correct_answer": "Blood clot",
         "questionOption":
             [
-                "Blood clot",
+                "A Blood clot",
                 "A star",
                 "A mini figurine of Jesus christ",
                 "The umbilical cord"
@@ -177,7 +177,7 @@ export const questions = [{
         "correct_answer": "Expanding his empire!",
         "questionOption":
             [
-                "For fun, he just loves killing!",
+                "For fun, he just loved killing!",
                 "Expanding his empire!",
                 "For cardiovascular exercise",
                 "Because he had a banging hangover."
