@@ -1,13 +1,15 @@
 <template>
-  <div id="footer" style="height: 85%; width: 85%">
-    <l-map style="height: 100%; width: 100%" :zoom="zoom" :center="center">
-    <l-tile-layer :url="url"></l-tile-layer>
-      <l-polygon
-      :lat-lngs="polygon.latlngs"
-      :color="polygon.color">
-      </l-polygon>
-  </l-map>
-</div>
+  <div style="height: 100%; width: 100%">
+    <h1>Territory conquered by Genghis Khan</h1>
+    <div id="map-wrapper" style="height: 100%; width: 85%">
+      <l-map style="height: 85%; width: 100%" :zoom="zoom" :center="center">
+        <l-tile-layer :url="url"></l-tile-layer>
+        <l-polygon
+        :lat-lngs="polygon.latlngs"
+        :color="polygon.color">
+        </l-polygon>
+    </l-map>
+  </div>
 </div>
 </template>
 
@@ -26,7 +28,6 @@ export default {
       url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
       zoom: 3.5,
       center: [42.02902, 94.667816],
-      // markerLatLng: [47.313220, -1.319482],
       polygon: {
         latlngs: [
           [47.3220688, 52.5668335],
@@ -51,17 +52,7 @@ export default {
         color: 'red'
     },
   };
-  // methods: {
-  //   zoomUpdated (zoom) {
-  //     this.zoom = zoom;
-  //   },
-  //   centerUpdated (center) {
-  //     this.center = center;
-  //   },
-  //   boundsUpdated (bounds) {
-  //     this.bounds = bounds;
-  //   }
-  // },
+
   components: {
     LMap,
     LTileLayer,
@@ -71,10 +62,16 @@ export default {
 }
 </script>
 
-<style lang="css">
-#footer {
-  position: absolute;
-  bottom: 5%;
-  align: center;
-  }
+<style lang="css" scoped>
+
+h1 {
+  text-align: center;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+#map-wrapper {
+  margin: 0 auto;
+  /* height: 100%;
+  width: 85%; */
+}
 </style>

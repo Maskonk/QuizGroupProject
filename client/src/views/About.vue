@@ -21,9 +21,11 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
 #main {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -31,10 +33,11 @@ export default {
   align-items: stretch;
   justify-items: stretch;
   }
+  
 .grid img {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width: 100%;
+  max-width: 90%;
 }
 
 h1 {

@@ -1,6 +1,6 @@
 <template>
   <div id="main">
-    <h2>QUIZ TIME!</h2>
+    <h1>QUIZ TIME!</h1>
     <div class="container">
       <question v-for="question in questions" :question="question"></question>
       <button><router-link :to="{ name: 'score' }">Submit answer</router-link></button>
@@ -56,7 +56,7 @@ a {
 }
 
 
-h2 {
+h1 {
   text-align: center;
 }
 
