@@ -66,7 +66,7 @@ export const questions = [{
                 "China"
             ]},
     {"question": "What was Genghis Khan said to be holding in his hand when born?",
-        "correct_answer": "Blood clot",
+        "correct_answer": "A Blood clot",
         "questionOption":
             [
                 "A Blood clot",
