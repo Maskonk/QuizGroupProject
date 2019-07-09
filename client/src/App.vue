@@ -55,8 +55,15 @@ export default {
 </script>
 
 <style lang="css">
+html,body {
+  margin: 0;
+}
 
 h1, h2, h3, h4 {
   margin: 80px;
+}
+#app {
+  height: 100vh;
+  width: 100vw;
 }
 </style>
