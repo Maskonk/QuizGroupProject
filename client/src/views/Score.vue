@@ -1,7 +1,9 @@
 <template>
     <div>
         <div v-if="Object.keys(answers).length === numberOfQuestions">
-        <h2> You scored {{totalScore(this.answers)}} correct out of {{Object.keys(answers).length}} questions answered</h2>
+        <h2> You scored {{totalScore}} correct out of {{Object.keys(answers).length}} questions answered</h2>
+        <input type="text" v-model="playerName">
+        <input type="submit" v-on:click="postScore">
         <h3>Correct Answers:</h3>
         <ol>
             <div v-for="(question, index) in answers" :question="question" :key="index">
@@ -20,9 +22,14 @@
 <script>
     export default {
         name: "result",
+        data(){
+          return {
+            playerName:""
+          }
+        },
         props: ['answers', 'numberOfQuestions'],
-        methods: {
-          totalScore(array) {
+        computed: {
+          totalScore: function() {
             let sum = 0;
             const answersToArray = Object.entries(this.answers)
             for (const entry of answersToArray) {
@@ -32,8 +39,22 @@
               }
             return sum
           }
+        },
+          methods: {
+            postScore(evt){
+              evt.preventDefault();
+              var payload = {name: this.playerName, score: this.totalScore};
+              const baseURL = 'http://localhost:3000/api/players/';
+              return fetch(baseURL, {
+                method: 'POST',
+                body: JSON.stringify(payload),
+                headers: {'Content-Type':'application/json'}
+              })
+              .then(res => res.json())
+            }
+          }
         }
-  }
+
 </script>
 
 <style lang="css" scoped>
