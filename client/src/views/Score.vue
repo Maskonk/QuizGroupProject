@@ -4,7 +4,10 @@
         <h2> You scored {{totalScore(this.answers)}} correct out of {{Object.keys(answers).length}} questions answered</h2>
         <h3>Correct Answers:</h3>
         <ol>
-          <li v-for="(question, index) in answers" :question="question" :key="index">{{index}}<br><br>Your answer: {{question.userAnswer}}<br><br>Correct Answer: {{question.correctAnswer}}</li>
+            <div v-for="(question, index) in answers" :question="question" :key="index">
+          <li v-if="question.userAnswer === question.correctAnswer">{{index}}<br>Correct Answer: {{question.correctAnswer}}<br><br></li>
+          <li v-else>{{index}}<br>Your answer: {{question.userAnswer}}<br>Correct Answer: {{question.correctAnswer}}<br><br></li>
+            </div>
         </ol>
         </div>
         <div v-else>
@@ -27,7 +30,7 @@
           totalScore(array) {
             let sum = 0;
             for (const answer in this.answers) {
-              if (answer.selected === answer.correct) {
+              if (answer.userAnswer === answer.correctAnswer) {
                 sum += 1;
                 }
               }
