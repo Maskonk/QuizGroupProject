@@ -81,11 +81,17 @@
     transform: scale(1);
 }
 
+label {
+  /* padding-right: 50px; */
+  border: 50px;
+}
+
 .container {
-  width: 300px;
+  width: 650px;
   border-bottom: 5px solid grey;
   padding: 30px;
-  margin-left: 80px;
+  margin: 60px;
+  padding-right: 300px;
 }
 
 

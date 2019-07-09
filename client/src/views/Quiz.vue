@@ -39,11 +39,22 @@ export default {
 }
 
 button {
-  padding-bottom: 5px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left:40px;
   padding-right:40px;
   background-color: salmon;
+  margin-left: 500px;
+
 }
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
 
 h2 {
   text-align: center;

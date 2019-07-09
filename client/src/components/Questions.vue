@@ -24,4 +24,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+h4 {
+  margin-bottom: 40px;
+}
+
 </style>
