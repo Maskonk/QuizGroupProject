@@ -42,7 +42,8 @@ export default {
 
 h1 {
   text-align: center;
-  margin: 80px;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 h3 {
