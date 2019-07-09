@@ -1,19 +1,23 @@
 <template>
     <div>
+        <div v-if="Object.keys(answers).length === numberOfQuestions">
         <h2> You scored {{totalScore(this.answers)}} correct out of {{Object.keys(answers).length}} questions answered</h2>
-        <div v-if="Object.keys(answers).length === 10">
         <h3>Correct Answers:</h3>
         <ol>
           <li v-for="(question, index) in answers" :question="question" :key="index">{{index}}<br><br>Your answer: {{question.userAnswer}}<br><br>Correct Answer: {{question.correctAnswer}}</li>
         </ol>
         </div>
+        <div v-else>
+            <h2> Please complete the quiz. </h2>
+        </div>
+
     </div>
 </template>
 
 <script>
     export default {
         name: "result",
-        props: ['answers'],
+        props: ['answers', 'numberOfQuestions'],
         data() {
           return {
               score: 0,
