@@ -29,8 +29,9 @@
         methods: {
           totalScore(array) {
             let sum = 0;
-            for (const answer in this.answers) {
-              if (answer.userAnswer === answer.correctAnswer) {
+            const answersToArray = Object.entries(this.answers)
+            for (const entry of answersToArray) {
+              if (entry[1].userAnswer === entry[1].correctAnswer) {
                 sum += 1;
                 }
               }
