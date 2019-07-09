@@ -43,6 +43,7 @@ a {
 
 h2 {
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .header {
