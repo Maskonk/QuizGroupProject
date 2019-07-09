@@ -3,6 +3,7 @@
     <ul>
       <li><router-link :to="{ name: 'home' }">HOME</router-link></li>
       <li><router-link :to="{ name: 'learn' }">LEARN</router-link></li>
+      <li><router-link :to="{ name: 'map' }">MAP</router-link></li>
       <li><router-link :to="{ name: 'quiz' }">QUIZ</router-link></li>
       <li><router-link :to="{ name: 'score' }">SCORE</router-link></li>
       <li><router-link :to="{ name: 'info' }">MORE READING</router-link></li>
