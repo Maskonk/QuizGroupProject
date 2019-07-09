@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "server:dev": "nodemon server.js",
+    "seeds": "mongo < ./db/seed_data.js"
   },
   "author": "",
   "license": "ISC",
