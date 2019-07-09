@@ -1,6 +1,10 @@
 <template>
     <div>
         <h2> You scored {{totalScore(this.answers)}} correct out of {{Object.keys(answers).length}} questions answered</h2>
+        <h3>Correct Answers:</h3>
+        <ol>
+          <li v-for="(question, index) in answers" :question="question" :key="index">{{index}}<br><br>Your answer: {{question.userAnswer}}<br><br>Correct Answer: {{question.correctAnswer}}</li>
+        </ol>
     </div>
 </template>
 
@@ -19,11 +23,11 @@
             for (const answer in this.answers) {
               if (answer.selected === answer.correct) {
                 sum += 1;
+                }
+              }
+            return sum
           }
         }
-        return sum
-      }
-    }
   }
 </script>
 
