@@ -51,10 +51,10 @@ export const questions = [{
         "correct_answer": "10%",
         "questionOption":
             [
-                "5%",
+                "5.0%",
                 "3.7%",
                 "0.2%",
-                "10%"
+                "10.0%"
             ]},
     {"question": "Where in the modern world was Genghis Khan born?",
         "correct_answer": "Mongolia",
