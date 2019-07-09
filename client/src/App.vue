@@ -47,9 +47,7 @@ export default {
     },
     mounted() {
         eventBus.$on('answer-selected', (data) =>
-        {this.answers[data.question] = {userAnswer: data.selected, correctAnswer: data.correct};
-            console.log('in the method', this.answers)});
-        console.log('second', this.answers)
+        this.answers[data.question] = {userAnswer: data.selected, correctAnswer: data.correct});
     }
 }
 </script>
