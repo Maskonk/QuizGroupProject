@@ -1,5 +1,5 @@
 export const questions = [{
-    "question": "Genghis khan orginal name was...",
+    "question": "Genghis Khan's orginal name was...",
     "correct_answer": "Temujin",
     "questionOption":
         [
@@ -29,7 +29,7 @@ export const questions = [{
                 "He didn't fight ever!"
             ]},
 
-    {"question": "When did Genghis Khan normally do to villages he came across?",
+    {"question": "What did Genghis Khan normally do to villages he came across?",
         "correct_answer": "Murder them",
         "questionOption":
             [
@@ -38,7 +38,7 @@ export const questions = [{
                 "Introduce them to fine art and love",
                 "Just ignore them"
             ]},
-    {"question": "How many people is it believed Genghis Khan help to murder?",
+    {"question": "How many people is Genghis Khan believed to have helped to murder?",
         "correct_answer": "40 million",
         "questionOption":
             [
@@ -47,7 +47,7 @@ export const questions = [{
                 "30 million",
                 "40 million"
             ]},
-    {"question": "What percentage of the world's population do we think Genghis' leadership has killed?",
+    {"question": "What percentage of the world's population is Genghis Khan's leadership estimated to have killed?",
         "correct_answer": "10%",
         "questionOption":
             [
@@ -65,7 +65,7 @@ export const questions = [{
                 "Finland",
                 "China"
             ]},
-    {"question": "What was Genghis Khan said to holding in his hand when born?",
+    {"question": "What was Genghis Khan said to be holding in his hand when born?",
         "correct_answer": "Blood clot",
         "questionOption":
             [
@@ -74,7 +74,7 @@ export const questions = [{
                 "A mini figurine of Jesus christ",
                 "The umbilical cord"
             ]},
-    {"question": "What made Mongols good at fighting?",
+    {"question": "What made the Mongols good at fighting?",
         "correct_answer": "Horsemanship and archery",
         "questionOption":
             [
@@ -83,7 +83,7 @@ export const questions = [{
                 "Mad charges",
                 "Semi-automatic weapons"
             ]},
-    {"question": "How much land did Genghis Khan inherited when he became the head of the family",
+    {"question": "How much land did Genghis Khan inherit when he became the head of his family",
         "correct_answer": "Nothing",
         "questionOption":
             [
@@ -101,7 +101,7 @@ export const questions = [{
                 "Iron worker",
                 "Flame worker"
             ]},
-    {"question": "What was prophesied upon Genghis's birth?",
+    {"question": "What was prophesied upon Genghis Khan's birth?",
         "correct_answer": "That he would be a great leader",
         "questionOption":
             [
@@ -110,7 +110,7 @@ export const questions = [{
                 "That he would turn out to be a fool",
                 "That he would never be able to ride"
             ]},
-    {"question": "What modern day city was Genghis born closest to?",
+    {"question": "What modern day city is Genghis Khan's birthplace closest to?",
         "correct_answer": "Ulaanbaatar",
         "questionOption":
             [
@@ -128,7 +128,7 @@ export const questions = [{
                 "2",
                 "4"
             ]},
-    {"question": "At its peak, how much land had Genghis conquer?",
+    {"question": "At its peak, how much land did Genghis Khan conquer?",
         "correct_answer": "Over ten million square miles",
         "questionOption":
             [
@@ -164,7 +164,7 @@ export const questions = [{
                 "His strong and stable polices in regards to brexit",
                 "His altitude towards slavery"
             ]},
-    {"question": "How long has it taken for the massacre of the people of the Iranian plateau to recover?",
+    {"question": "How long did it take for the population of the Iranian plateau to recover from the massacre led by Genghis Khan?",
         "correct_answer": "until the 20th century",
         "questionOption":
             [
@@ -191,7 +191,7 @@ export const questions = [{
                 "His mother",
                 "His best friend Bob"
             ]},
-    {"question": "What is did Genghis Khan do to the nomadic tribes of Mongolia?",
+    {"question": "What did Genghis Khan do to the nomadic tribes of Mongolia?",
         "correct_answer": "Unite them",
         "questionOption":
             [
