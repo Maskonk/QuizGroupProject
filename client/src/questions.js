@@ -19,7 +19,7 @@ export const questions = [{
                 "1162"
             ]},
 
-    {"question": "You could describe Genghis Khan's military tactics as ...?",
+    {"question": "Genghis Khan's military tactics could be described as ...?",
         "correct_answer": "Aggressive",
         "questionOption":
             [
