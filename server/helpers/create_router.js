@@ -19,14 +19,15 @@ const createRouter = function (collection) {
   });
 
   router.get('/', (req, res) => {
-    .find()
-    .toArray()
-    .then((docs) => res.json(docs))
-    .catch((err) => {
-      console.error(err);
-      res.status(500);
-      res.json({status:500, error: err});
-    });
+    collection
+      .find()
+      .toArray()
+      .then((docs) => res.json(docs))
+      .catch((err) => {
+        console.error(err);
+        res.status(500);
+        res.json({status:500, error: err});
+      });
   });
 
 

@@ -20,7 +20,7 @@ export default {
 h1 {
   text-align: center;
   margin-top: 100px;
-  padding-top: 100px;
+  padding-top: 10%;
 }
 
 h2 {
