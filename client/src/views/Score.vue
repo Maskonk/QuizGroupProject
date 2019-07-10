@@ -3,7 +3,8 @@
         <div v-if="Object.keys(answers).length === numberOfQuestions">
         <h2> You scored {{totalScore}} correct out of {{Object.keys(answers).length}} questions answered</h2>
         <input type="text" v-model="playerName">
-        <input type="submit" v-on:click="postScore">
+<!--        <input type="submit" v-on:click="postScore">-->
+            <button v-on:click="postScore"><router-link :to="{ name: 'board' }">Submit answer</router-link></button>
         <h3>Correct Answers:</h3>
         <ol>
             <div v-for="(question, index) in answers" :question="question" :key="index">
@@ -61,4 +62,26 @@
 #main {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
+
+button {
+    background-color: black;
+}
+
+button:hover {
+    background-color: #e33333;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 </style>

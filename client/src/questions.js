@@ -162,7 +162,7 @@ export const questions = [{
                 "His religious tolerance",
                 "His singing ability",
                 "His strong and stable polices in regards to brexit",
-                "His altitude towards slavery"
+                "His attitude towards slavery"
             ]},
     {"question": "How long did it take for the population of the Iranian plateau to recover from the massacre led by Genghis Khan?",
         "correct_answer": "until the 20th century",
