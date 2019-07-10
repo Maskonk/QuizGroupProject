@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-  background-color: red;
+  background-color: #e33333;
   color: white;
 }
 

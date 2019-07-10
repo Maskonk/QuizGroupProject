@@ -1,13 +1,15 @@
 <template lang="html">
-  <table>
+  <table align="center">
     <thead>
       <tr>
-        <th>something</th>
+        <th>Name</th>
+        <th>Score</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>{{Scores}}</td>
+      <tr v-for="score in Scores">
+        <td>{{score.name}}</td>
+        <td>{{score.score}}</td>
       </tr>
     </tbody>
   </table>
@@ -37,6 +39,20 @@ export default {
 <style lang="css" scoped>
 
 table {
-  margin: 200px;
+  width: 40%;
+  margin-top: 10%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  text-align: left;
 }
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #e33333;
+}
+
 </style>
