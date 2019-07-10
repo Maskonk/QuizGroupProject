@@ -20,13 +20,17 @@ export default {
       Scores: null
     };
   },
+  methods: {
+    getScore:
+            function () {
+              const baseURL = "http://localhost:3000/api/players/";
+              return fetch(baseURL)
+                      .then(res => res.json())
+                      .then(data => this.Scores = data)
+            }
+  },
   mounted(){
-    function getScore() {
-      const baseURL = "http://localhost:3000/api/players/"
-      return fetch(baseURL)
-      .then(res => res.json())
-      .then(data => this.Scores = data)
-    }
+    this.getScore()
   }
 }
 </script>
