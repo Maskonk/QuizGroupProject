@@ -54,7 +54,7 @@ export const questions = [{
                 "5.0%",
                 "3.7%",
                 "0.2%",
-                "10.0%"
+                "10%"
             ]},
     {"question": "Where in the modern world was Genghis Khan born?",
         "correct_answer": "Mongolia",
