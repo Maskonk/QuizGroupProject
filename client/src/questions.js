@@ -101,7 +101,7 @@ export const questions = [{
                 "Iron worker",
                 "Flame worker"
             ]},
-    {"question": "What was prophesied upon Genghis Khan's birth?",
+    {"question": "What was prophesised upon Genghis Khan's birth?",
         "correct_answer": "That he would be a great leader",
         "questionOption":
             [
