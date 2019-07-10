@@ -45,9 +45,21 @@ button {
   padding-bottom: 40px;
   padding-left:40px;
   padding-right:40px;
-  background-color: salmon;
+  background-color: black;
   margin-left: 500px;
+}
 
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+a:link {
+ color: white;
+}
+
+a:visited {
+ color: white;
 }
 
 a {
@@ -55,11 +67,9 @@ a {
   font-size: 25px;
 }
 
-
 h1 {
   text-align: center;
   margin-bottom: 0px;
 }
-
 
 </style>
